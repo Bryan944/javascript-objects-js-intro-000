@@ -1,14 +1,14 @@
 var playlist = {surfaces: 'bloom'};
 
 
-function updatePlaylist(playlist,key,value){
-var playlist = {surfaces: 'bloom'};
-  key;
-  value;
-  var value = "Here's to the State of Mississippi";
+function updatePlaylist(playlist,artistName,songTitle){
   var playlist = {surfaces: 'bloom'};
-      playlist['Slowdive'] = 'Alison'
-      playlist['My Bloody Valentine'] = 'Sometimes'
-      playlist['Phil Ochs'] = value
+      playlist['Slowdive'] = 'Alison',
+      playlist['My Bloody Valentine'] = 'Sometimes',
+
+  playlist = Object.assign({}, playlist, { [artistName]: songTitle })
   return playlist;
 }
+
+
+
