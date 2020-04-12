@@ -7,6 +7,6 @@ function updatePlaylist(playlist,artistName,songTitle){
       playlist['My Bloody Valentine'] = 'Sometimes',
 playlist2 = playlist;
   playlist = Object.assign({}, playlist, { [artistName]: songTitle })
-  
+
   return playlist2;
 }
