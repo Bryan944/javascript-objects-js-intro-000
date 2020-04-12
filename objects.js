@@ -1,12 +1,14 @@
 var playlist = {surfaces: 'bloom'};
 
 
-function updatePlaylist(playlist,'Phil Ochs', "Here's to the State of Mississippi") = {
-playlist.Slowdive : 'Alison',
-playlist.MyBloodyValentine : 'Sometimes',
-playlist.PhilOchs : "Here\'s to the State of Mississippi"
+function updatePlaylist(playlist,key,value){
+  
+  key;
+  value;
+  var value = "Here's to the State of Mississippi";
+  var playlist = {surfaces: 'bloom'};
+      playlist['Slowdive'] = 'Alison'
+      playlist['My Bloody Valentine'] = 'Sometimes'
+      playlist['Phil Ochs'] = value
+  return playlist;
 }
-return playlist;
-//console.log(playlist);
-//delete playlist.Slowdive;
-//console.log(playlist);
